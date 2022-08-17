@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lgf-r6-WbL">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -63,14 +63,14 @@
         <scene sceneID="N1t-Pn-B7E">
             <objects>
                 <viewController id="Zs6-BX-Uuf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="yt2-i2-O1c">
+                    <view key="view" contentMode="scaleToFill" id="yt2-i2-O1c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i5T-BA-PyM">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5T-BA-PyM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yoz-2Y-TT7">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yoz-2Y-TT7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Popular Fast Fashion Brands" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTo-RI-oEt">
@@ -390,47 +390,47 @@
                                                 <color key="textColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="ulI-mv-eH8">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="ulI-mv-eH8">
                                                 <rect key="frame" x="201" y="228" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="8" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="vUe-6f-EST">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="8" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="vUe-6f-EST">
                                                 <rect key="frame" x="201" y="314" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="9" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="Zmt-bM-bcb">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="9" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="Zmt-bM-bcb">
                                                 <rect key="frame" x="201" y="411" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="11" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-Iv-CaM">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="11" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-Iv-CaM">
                                                 <rect key="frame" x="201" y="496" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="t0u-4H-jaa">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="t0u-4H-jaa">
                                                 <rect key="frame" x="201" y="594" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-fb-4Ra">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-fb-4Ra">
                                                 <rect key="frame" x="201" y="680" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="7" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-Ee-pqr">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="7" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-Ee-pqr">
                                                 <rect key="frame" x="201" y="777" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="ZzF-qB-EqQ">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="ZzF-qB-EqQ">
                                                 <rect key="frame" x="201" y="863" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="2sB-lX-j9r">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="2sB-lX-j9r">
                                                 <rect key="frame" x="201" y="961" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -591,47 +591,47 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="xbH-CH-563">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="xbH-CH-563">
                                                 <rect key="frame" x="201" y="1158" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Cun-G2-NwG">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Cun-G2-NwG">
                                                 <rect key="frame" x="201" y="1247" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="yHw-5S-UHo">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="yHw-5S-UHo">
                                                 <rect key="frame" x="201" y="1333" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4.5999999046325684" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="2AN-fX-Bv0">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4.5999999046325684" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="2AN-fX-Bv0">
                                                 <rect key="frame" x="201" y="1430" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="6AK-S4-eAs">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="6AK-S4-eAs">
                                                 <rect key="frame" x="201" y="1517" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3.5" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="hWO-Rb-XCe">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3.5" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="hWO-Rb-XCe">
                                                 <rect key="frame" x="201" y="1614" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZUU-I8-Ugg">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZUU-I8-Ugg">
                                                 <rect key="frame" x="201" y="1699" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="r6Y-96-BkE">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="r6Y-96-BkE">
                                                 <rect key="frame" x="201" y="1786" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lg9-gt-ycY">
+                                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lg9-gt-ycY">
                                                 <rect key="frame" x="201" y="1882" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.39612904189999998" green="0.76837557550000002" blue="0.39992994069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -730,7 +730,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cXt-aQ-Emh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2557" y="98"/>
+            <point key="canvasLocation" x="2556.521739130435" y="97.767857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mCu-cy-RwW">
@@ -750,7 +750,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSs-E8-Ekh">
                                 <rect key="frame" x="33" y="159" width="348" height="690"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Basic Supplies:
+                                <string key="text">Basic Supplies:
 🧶Thread
 🧶Needle
 🧶Fabric Scissors
@@ -762,7 +762,7 @@
 Stitching Techniques:
 Running Stitch: Most basic sewing stitch. Good for quickly mending clothing.
 Back Stitch: A simple yet strong and reliable stitch technique. Good for mending seams as well as replacing zippers
-Cross Stitch: Good for finishing hems and front-facing embroidery.</mutableString>
+Cross Stitch: Good for finishing hems and front-facing embroidery.</string>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
