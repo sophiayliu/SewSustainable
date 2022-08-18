@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lgf-r6-WbL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -32,9 +32,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Repair &amp; Reuse">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="jOe-gs-hSq" kind="show" id="CWl-zf-JLv"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGq-Eb-KWz">
                                 <rect key="frame" x="97" y="493" width="220" height="53"/>
@@ -45,9 +42,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Fashion Brands">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Zs6-BX-Uuf" kind="show" id="9ie-fW-AuF"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -57,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+            <point key="canvasLocation" x="1855.072463768116" y="97.767857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="N1t-Pn-B7E">
@@ -730,7 +724,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cXt-aQ-Emh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2556.521739130435" y="97.767857142857139"/>
+            <point key="canvasLocation" x="3466.666666666667" y="97.767857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mCu-cy-RwW">
@@ -775,30 +769,109 @@ Cross Stitch: Good for finishing hems and front-facing embroidery.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pup-Gt-kIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1728.985507246377" y="97.767857142857139"/>
+            <point key="canvasLocation" x="2639.130434782609" y="97.767857142857139"/>
+        </scene>
+        <!--SEW SUSTAINABLE-->
+        <scene sceneID="vdh-84-d11">
+            <objects>
+                <viewController id="2qq-rr-KJa" customClass="ViewController" customModule="slideoutbartest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bd-Rd-0jg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMw-sh-9jo">
+                                <rect key="frame" x="0.0" y="88" width="240" height="808"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFg-KR-GD9">
+                                        <rect key="frame" x="0.0" y="18" width="93" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Home">
+                                            <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                            <color key="baseForegroundColor" red="0.9249565005" green="0.98635929820000001" blue="0.82742822169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgS-9g-Yic">
+                                        <rect key="frame" x="0.0" y="75" width="204" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Clothing Brands">
+                                            <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                            <color key="baseForegroundColor" red="0.9249565005" green="0.98635929820000001" blue="0.82742822169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vyp-cq-yJu">
+                                        <rect key="frame" x="0.0" y="132" width="194" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Repair &amp; Reuse">
+                                            <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                            <color key="baseForegroundColor" red="0.9249565005" green="0.98635929820000001" blue="0.82742822169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSq-nK-Pvg">
+                                        <rect key="frame" x="0.0" y="189" width="154" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Quick Facts">
+                                            <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                            <color key="baseForegroundColor" red="0.9249565005" green="0.98635929820000001" blue="0.82742822169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="C1q-zb-GAz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CUj-4e-8mQ"/>
+                        <color key="backgroundColor" red="0.9249565005" green="0.98635929820000001" blue="0.82742822169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pMw-sh-9jo" firstAttribute="leading" secondItem="CUj-4e-8mQ" secondAttribute="leading" id="II2-xO-Nnb"/>
+                            <constraint firstAttribute="bottom" secondItem="pMw-sh-9jo" secondAttribute="bottom" id="YsR-KY-u4K"/>
+                            <constraint firstItem="pMw-sh-9jo" firstAttribute="top" secondItem="CUj-4e-8mQ" secondAttribute="top" id="fOn-gW-vui"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SEW SUSTAINABLE" id="WH3-ZG-BEF">
+                        <barButtonItem key="leftBarButtonItem" title="Slide Out Menu" image="icons8-menu-30" id="1m5-jW-xde">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="openMenu:" destination="2qq-rr-KJa" id="qsb-P8-Im1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="LeadingConstraint" destination="II2-xO-Nnb" id="taF-VQ-xg8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVU-qn-s4d" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002.8985507246377" y="97.767857142857139"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="SPo-Z1-1Sn">
+        <scene sceneID="5aZ-nV-7OR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lgf-r6-WbL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yCz-BP-2Kg" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nqa-mN-KHg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D25-w2-tfb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1Us-3k-Pn4"/>
+                        <segue destination="2qq-rr-KJa" kind="relationship" relationship="rootViewController" id="bff-m6-f05"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NM2-oa-cwK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ofn-W8-asP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+            <point key="canvasLocation" x="92.753623188405811" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>
         <image name="Untitled design (35)" width="2000" height="286"/>
         <image name="Untitled design (36)" width="900" height="900"/>
+        <image name="icons8-menu-30" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
