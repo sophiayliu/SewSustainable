@@ -14,8 +14,6 @@
 		7A88BAA828AC186200B8F873 /* SewSustainable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A88BAA628AC186200B8F873 /* SewSustainable.xcdatamodeld */; };
 		7A88BAAA28AC186500B8F873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A88BAA928AC186500B8F873 /* Assets.xcassets */; };
 		7A88BAAD28AC186500B8F873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A88BAAB28AC186500B8F873 /* LaunchScreen.storyboard */; };
-		F08D8CA928AE93EE007934CC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D8CA828AE93EE007934CC /* ViewController2.swift */; };
-		F08D8CAB28AE9475007934CC /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D8CAA28AE9475007934CC /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		7A88BAA928AC186500B8F873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A88BAAC28AC186500B8F873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A88BAAE28AC186500B8F873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F08D8CA828AE93EE007934CC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../../../ViewController2.swift; sourceTree = "<group>"; };
-		F08D8CAA28AE9475007934CC /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = ../../../ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +61,6 @@
 				7A88BA9D28AC186200B8F873 /* AppDelegate.swift */,
 				7A88BA9F28AC186200B8F873 /* SceneDelegate.swift */,
 				7A88BAA128AC186200B8F873 /* ViewController.swift */,
-				F08D8CA828AE93EE007934CC /* ViewController2.swift */,
-				F08D8CAA28AE9475007934CC /* ViewController3.swift */,
 				7A88BAA328AC186200B8F873 /* Main.storyboard */,
 				7A88BAA928AC186500B8F873 /* Assets.xcassets */,
 				7A88BAAB28AC186500B8F873 /* LaunchScreen.storyboard */,
@@ -147,9 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F08D8CA928AE93EE007934CC /* ViewController2.swift in Sources */,
 				7A88BAA228AC186200B8F873 /* ViewController.swift in Sources */,
-				F08D8CAB28AE9475007934CC /* ViewController3.swift in Sources */,
 				7A88BAA828AC186200B8F873 /* SewSustainable.xcdatamodeld in Sources */,
 				7A88BA9E28AC186200B8F873 /* AppDelegate.swift in Sources */,
 				7A88BAA028AC186200B8F873 /* SceneDelegate.swift in Sources */,
