@@ -138,6 +138,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fast_facts_image"/>
+                                <connections>
+                                    <segue destination="Xvx-aW-PGV" kind="show" id="nQy-G6-SkQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sew Sustainable" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpm-rf-DHY">
                                 <rect key="frame" x="47" y="26" width="320" height="269"/>
@@ -173,10 +176,10 @@
             </objects>
             <point key="canvasLocation" x="513.04347826086962" y="573.88392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Fashion Brands View Controller-->
         <scene sceneID="yTr-Bq-bNf">
             <objects>
-                <viewController id="7il-x2-TWI" sceneMemberID="viewController">
+                <viewController id="7il-x2-TWI" customClass="FashionBrandsViewController" customModule="SewSustainable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xaM-jZ-Gdh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -900,15 +903,15 @@
         <!--Sew a Button-->
         <scene sceneID="dRL-3x-ikb">
             <objects>
-                <viewController id="suO-3B-m93" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tZi-DM-cfb">
+                <viewController id="suO-3B-m93" customClass="SewButtonViewController" customModule="SewSustainable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tZi-DM-cfb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DcR-eI-nrG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcR-eI-nrG">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-sj-6iA">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-sj-6iA">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sewing a Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZr-QQ-H3V">
@@ -988,7 +991,6 @@
                             <constraint firstItem="DcR-eI-nrG" firstAttribute="leading" secondItem="qU9-91-cFl" secondAttribute="leading" id="4Wf-un-FkH"/>
                             <constraint firstItem="rJo-sj-6iA" firstAttribute="width" secondItem="tZi-DM-cfb" secondAttribute="width" id="9AZ-vQ-tyB"/>
                             <constraint firstItem="DcR-eI-nrG" firstAttribute="trailing" secondItem="qU9-91-cFl" secondAttribute="trailing" id="adq-cD-p4g"/>
-                            <constraint firstItem="rJo-sj-6iA" firstAttribute="height" secondItem="tZi-DM-cfb" secondAttribute="height" multiplier="2.23214" id="qvm-ns-hNe"/>
                             <constraint firstAttribute="bottom" secondItem="DcR-eI-nrG" secondAttribute="bottom" id="x0P-ju-SZK"/>
                             <constraint firstItem="DcR-eI-nrG" firstAttribute="top" secondItem="qU9-91-cFl" secondAttribute="top" id="x3T-eM-pXL"/>
                         </constraints>
@@ -1003,7 +1005,7 @@
         <!--Mend a Seam-->
         <scene sceneID="QI7-Hf-Iqs">
             <objects>
-                <viewController id="tzU-mC-pvB" sceneMemberID="viewController">
+                <viewController id="tzU-mC-pvB" customClass="MendSeamViewController" customModule="SewSustainable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="74c-cH-0yb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1062,16 +1064,16 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.98823529409999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="jAu-XJ-bDO"/>
+                                            <constraint firstAttribute="height" constant="1000" id="jAu-XJ-bDO"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="w6d-SK-Ta1" secondAttribute="trailing" id="Lop-bG-NPs"/>
-                                    <constraint firstItem="w6d-SK-Ta1" firstAttribute="top" secondItem="N5u-Sv-BYC" secondAttribute="top" id="Utq-9U-KRv"/>
-                                    <constraint firstAttribute="bottom" secondItem="w6d-SK-Ta1" secondAttribute="bottom" id="aRr-Ty-XoR"/>
+                                    <constraint firstItem="w6d-SK-Ta1" firstAttribute="top" secondItem="N5u-Sv-BYC" secondAttribute="top" constant="88" id="Utq-9U-KRv"/>
+                                    <constraint firstAttribute="bottom" secondItem="w6d-SK-Ta1" secondAttribute="bottom" constant="-192" id="aRr-Ty-XoR"/>
                                     <constraint firstItem="w6d-SK-Ta1" firstAttribute="leading" secondItem="N5u-Sv-BYC" secondAttribute="leading" id="bUd-9Q-lOq"/>
-                                    <constraint firstItem="w6d-SK-Ta1" firstAttribute="top" secondItem="N5u-Sv-BYC" secondAttribute="top" id="gj2-7f-lI8"/>
+                                    <constraint firstItem="w6d-SK-Ta1" firstAttribute="top" secondItem="N5u-Sv-BYC" secondAttribute="top" constant="88" id="gj2-7f-lI8"/>
                                     <constraint firstItem="w6d-SK-Ta1" firstAttribute="centerX" secondItem="N5u-Sv-BYC" secondAttribute="centerX" id="lGK-MQ-aNI"/>
                                 </constraints>
                             </scrollView>
@@ -1129,10 +1131,10 @@
             </objects>
             <point key="canvasLocation" x="1721.7391304347827" y="695.75892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Our Mission View Controller-->
         <scene sceneID="LsK-25-LVr">
             <objects>
-                <viewController id="Oqw-o5-UBu" customClass="ViewController" customModule="slideoutbartest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Oqw-o5-UBu" customClass="OurMissionViewController" customModule="SewSustainable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Irv-ea-tGs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1188,6 +1190,59 @@ are not good for the environment and list some more sustainable alternative bran
             </objects>
             <point key="canvasLocation" x="644.92753623188412" y="-338.16964285714283"/>
         </scene>
+        <!--Facts Page View Controller-->
+        <scene sceneID="IWS-wC-ME4">
+            <objects>
+                <viewController id="Xvx-aW-PGV" customClass="FactsPageViewController" customModule="SewSustainable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FuK-5n-B0L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVl-pa-af9">
+                                <rect key="frame" x="145" y="720" width="124" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click for facts">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Baskerville"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="facts_button:" destination="Xvx-aW-PGV" eventType="touchUpInside" id="Tcz-V7-1Ly"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Facts About Fast Fashion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTx-cd-cUM">
+                                <rect key="frame" x="67" y="88" width="297" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.21960784310000001" green="0.40000000000000002" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="50"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="[insert facts]" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2UM-Uv-3WL">
+                                <rect key="frame" x="55" y="267" width="309" height="395"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.21960784310000001" green="0.40000000000000002" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="06T-SK-T4K"/>
+                        <color key="backgroundColor" red="0.90201457880000002" green="0.98089760540000004" blue="0.77053667169999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="facts_text" destination="2UM-Uv-3WL" id="PDj-qE-opK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i28-Si-Vqe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511.59420289855075" y="1340.625"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Our Mission" width="500" height="500"/>
@@ -1205,6 +1260,9 @@ are not good for the environment and list some more sustainable alternative bran
         <image name="sew_a_button_image" width="214" height="190"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
