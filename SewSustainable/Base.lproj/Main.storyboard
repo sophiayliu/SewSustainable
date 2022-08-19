@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jD8-8n-hpZ">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -84,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVU-qn-s4d" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2322" y="-243"/>
+            <point key="canvasLocation" x="3231.884057971015" y="-243.08035714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5aZ-nV-7OR">
@@ -102,7 +102,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ofn-W8-asP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1355" y="-243"/>
+            <point key="canvasLocation" x="2263.768115942029" y="-243.08035714285714"/>
         </scene>
         <!--Home Page View Controller-->
         <scene sceneID="Jqo-Ht-m9H">
@@ -113,7 +113,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiD-dI-0uq">
-                                <rect key="frame" x="97" y="266" width="214" height="175"/>
+                                <rect key="frame" x="117" y="239" width="180" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -123,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KY3-Y8-V4P">
-                                <rect key="frame" x="91" y="489" width="232" height="150"/>
+                                <rect key="frame" x="112" y="407" width="190" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -133,7 +133,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nS-3n-HED">
-                                <rect key="frame" x="91" y="683" width="226" height="145"/>
+                                <rect key="frame" x="106" y="560" width="203" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -146,6 +146,23 @@
                                 <color key="textColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created By: Sophia Liu, Ivy Chen, Dellany Olela, and Amanda He" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wk-QS-UgK">
+                                <rect key="frame" x="8" y="777" width="398" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="11"/>
+                                <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <string key="userLabel">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible.</string>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZT-cy-3R4">
+                                <rect key="frame" x="140" y="732" width="134" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Our Mission"/>
+                                <connections>
+                                    <segue destination="Oqw-o5-UBu" kind="show" id="7k4-Ti-4DS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="k1y-41-4kI"/>
                         <color key="backgroundColor" red="0.90980392160000001" green="0.98823529409999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -154,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5K-Jt-NdM" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="514" y="574"/>
+            <point key="canvasLocation" x="513.04347826086962" y="573.88392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yTr-Bq-bNf">
@@ -826,7 +843,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oc2-F0-PCW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3466.666666666667" y="97.767857142857139"/>
+            <point key="canvasLocation" x="4376.811594202899" y="97.767857142857139"/>
         </scene>
         <!--Repair And Reuse View Controller-->
         <scene sceneID="vpR-6M-bnf">
@@ -884,15 +901,15 @@
         <scene sceneID="dRL-3x-ikb">
             <objects>
                 <viewController id="suO-3B-m93" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tZi-DM-cfb">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tZi-DM-cfb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcR-eI-nrG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DcR-eI-nrG">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-sj-6iA">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-sj-6iA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sewing a Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZr-QQ-H3V">
                                                 <rect key="frame" x="54" y="22" width="306" height="61"/>
@@ -926,7 +943,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfy-fC-1Sn">
                                                 <rect key="frame" x="33" y="579" width="342" height="842"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">1. Thread your needle and tie a knot at the end.
+                                                <string key="text">1. Thread your needle and tie a knot at the end.
 
 2. Position your button where you want it.
 
@@ -945,7 +962,7 @@
 9. Then wrap the thread around the base of the button.
 
 10. Thread the needle back through to the back of the fabric and create a knot.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1112,8 +1129,69 @@
             </objects>
             <point key="canvasLocation" x="1721.7391304347827" y="695.75892857142856"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="LsK-25-LVr">
+            <objects>
+                <viewController id="Oqw-o5-UBu" customClass="ViewController" customModule="slideoutbartest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Irv-ea-tGs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is sustainable fashion and why is it important?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkU-hN-omE">
+                                <rect key="frame" x="-4" y="41" width="420" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="28"/>
+                                <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Mission:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWK-x7-dG9">
+                                <rect key="frame" x="-82" y="246" width="579" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="28"/>
+                                <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFM-v8-UtA">
+                                <rect key="frame" x="25" y="330" width="357" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Teach you about popular fast fashion brands that
+are not good for the environment and list some more sustainable alternative brands  
+- Teach you easy fixes in order to elongate the life of your clothes
+- Share some facts about fast fashion that you most likely have never heard of!
+- Help you lower your carbon footprint while still being fashionable</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <string key="userLabel">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible.</string>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXj-hj-SLg">
+                                <rect key="frame" x="17" y="104" width="381" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible. </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <string key="userLabel">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible.</string>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sustainable-fashion-wtvox.com-sustainable-fashion-components-2" translatesAutoresizingMaskIntoConstraints="NO" id="IYs-de-GDQ">
+                                <rect key="frame" x="41" y="632" width="325" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KKW-YD-hgu"/>
+                        <color key="backgroundColor" red="0.9249565005" green="0.98635929820000001" blue="0.82742822169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0AR-0o-16N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644.92753623188412" y="-338.16964285714283"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Our Mission" width="500" height="500"/>
+        <image name="Sustainable-fashion-wtvox.com-sustainable-fashion-components-2" width="1000" height="1000"/>
         <image name="Untitled design (35)" width="2000" height="286"/>
         <image name="Untitled design (36)" width="900" height="900"/>
         <image name="basic_tips_image" width="212" height="228"/>
