@@ -1164,7 +1164,7 @@ are not good for the environment and list some more sustainable alternative bran
 - Teach you easy fixes in order to elongate the life of your clothes
 - Share some facts about fast fashion that you most likely have never heard of!
 - Help you lower your carbon footprint while still being fashionable</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="22"/>
                                 <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <string key="userLabel">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible.</string>
@@ -1173,7 +1173,7 @@ are not good for the environment and list some more sustainable alternative bran
                                 <rect key="frame" x="17" y="104" width="381" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible. </string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="23"/>
                                 <color key="textColor" red="0.26277661320000001" green="0.40152144429999997" blue="0.2666460276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <string key="userLabel">Sustainable fashion brands create fashion in a way which is most considerate of humanity and the environment, reducing the environmental impact wherever possible.</string>
