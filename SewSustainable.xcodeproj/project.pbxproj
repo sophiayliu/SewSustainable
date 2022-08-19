@@ -21,6 +21,7 @@
 		7AE3CF7628AFBC8B00BA1605 /* MendSeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3CF7528AFBC8B00BA1605 /* MendSeamViewController.swift */; };
 		7AE3CF7828AFBCDE00BA1605 /* FactsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3CF7728AFBCDE00BA1605 /* FactsPageViewController.swift */; };
 		7AE3CF7A28AFBCFC00BA1605 /* FashionBrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3CF7928AFBCFC00BA1605 /* FashionBrandsViewController.swift */; };
+		7AE3CF7E28AFD97C00BA1605 /* BasicTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3CF7D28AFD97C00BA1605 /* BasicTipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7AE3CF7528AFBC8B00BA1605 /* MendSeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendSeamViewController.swift; sourceTree = "<group>"; };
 		7AE3CF7728AFBCDE00BA1605 /* FactsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsPageViewController.swift; sourceTree = "<group>"; };
 		7AE3CF7928AFBCFC00BA1605 /* FashionBrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionBrandsViewController.swift; sourceTree = "<group>"; };
+		7AE3CF7D28AFD97C00BA1605 /* BasicTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				7AE3CF7528AFBC8B00BA1605 /* MendSeamViewController.swift */,
 				7AE3CF7728AFBCDE00BA1605 /* FactsPageViewController.swift */,
 				7AE3CF7928AFBCFC00BA1605 /* FashionBrandsViewController.swift */,
+				7AE3CF7D28AFD97C00BA1605 /* BasicTipsViewController.swift */,
 			);
 			path = SewSustainable;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A88BAA228AC186200B8F873 /* ViewController.swift in Sources */,
+				7AE3CF7E28AFD97C00BA1605 /* BasicTipsViewController.swift in Sources */,
 				7AE3CF7828AFBCDE00BA1605 /* FactsPageViewController.swift in Sources */,
 				7A88BAA828AC186200B8F873 /* SewSustainable.xcdatamodeld in Sources */,
 				7AE3CF7428AFBC6E00BA1605 /* SewButtonViewController.swift in Sources */,

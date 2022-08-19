@@ -889,6 +889,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="basic_tips_image"/>
+                                <connections>
+                                    <segue destination="AIN-Iz-46N" kind="show" id="q85-7w-7Nb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xEL-Ii-9FS"/>
@@ -1242,6 +1245,145 @@ are not good for the environment and list some more sustainable alternative bran
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i28-Si-Vqe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="511.59420289855075" y="1340.625"/>
+        </scene>
+        <!--Basic Tips-->
+        <scene sceneID="7Xw-Te-h8S">
+            <objects>
+                <viewController id="AIN-Iz-46N" customClass="BasicTipsViewController" customModule="SewSustainable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U6a-pC-l8Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6SQ-cq-gdF">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-N1-JIv">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Tips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzR-od-0gn">
+                                                <rect key="frame" x="54" y="22" width="306" height="61"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="50"/>
+                                                <color key="textColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agc-Sf-xuI">
+                                                <rect key="frame" x="33" y="114" width="342" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Basic Supplies:
+       🧵Thread
+       🧵Sewing Needle
+       🧵Fabric Scissors
+       🧵Sewing Pins
+       🧵Seam Ripper
+       🧵Measuring Tape
+       🧵Bonus: A sewing machine can be super useful for repairing and mending your clothing, but there’s still plenty of quick fixes you can make without one!</mutableString>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeZ-xC-xQh">
+                                                <rect key="frame" x="33" y="512" width="342" height="381"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Stitching Techniques:
+       🪡Running Stitch: Most basic sewing stitch. Good for quickly mending clothing.
+       🪡Back Stitch: A simple yet strong and reliable stitch technique. Good for mending seams as well as replacing zippers
+       🪡Cross Stitch: Good for finishing hems and front-facing embroidery.</mutableString>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Online Resources for Learning Sewing" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wst-at-fpb">
+                                                <rect key="frame" x="54" y="901" width="306" height="103"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="32"/>
+                                                <color key="textColor" red="0.41568627450000001" green="0.59999999999999998" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFP-77-u4I">
+                                                <rect key="frame" x="54" y="1012" width="306" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.21960784310000001" green="0.40000000000000002" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Spruce Crafts">
+                                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="spruce_crafts_button:" destination="AIN-Iz-46N" eventType="touchUpInside" id="lbT-Ql-dzx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hb9-a6-fF8">
+                                                <rect key="frame" x="54" y="1136" width="306" height="85"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Newton Custom Interiors">
+                                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="25"/>
+                                                    <color key="baseForegroundColor" red="0.21960784310000001" green="0.40000000000000002" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="newton_custom_website_button:" destination="AIN-Iz-46N" eventType="touchUpInside" id="iUi-bU-NZu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYh-fm-YEz">
+                                                <rect key="frame" x="54" y="1269" width="306" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Crazy Little Projects">
+                                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="25"/>
+                                                    <color key="baseForegroundColor" red="0.21960784310000001" green="0.40000000000000002" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="crazy_little_projects_button:" destination="AIN-Iz-46N" eventType="touchUpInside" id="pB5-jF-Gx3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuX-gS-VRl">
+                                                <rect key="frame" x="54" y="1393" width="306" height="89"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="The Quirky Environmentalist">
+                                                    <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="25"/>
+                                                    <color key="baseForegroundColor" red="0.21960784310000001" green="0.40000000000000002" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="quirky_enviro_button:" destination="AIN-Iz-46N" eventType="touchUpInside" id="01h-x3-OIH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.90980392160000001" green="0.98823529409999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1600" id="oMW-Ja-cK5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90980392160000001" green="0.98823529409999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="s0v-N1-JIv" secondAttribute="trailing" id="H9v-uT-dZG"/>
+                                    <constraint firstItem="s0v-N1-JIv" firstAttribute="leading" secondItem="6SQ-cq-gdF" secondAttribute="leading" id="OS9-oc-xGQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="s0v-N1-JIv" secondAttribute="bottom" id="PzZ-76-l1R"/>
+                                    <constraint firstItem="s0v-N1-JIv" firstAttribute="top" secondItem="6SQ-cq-gdF" secondAttribute="top" id="bqI-7m-3dN"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="huo-zI-AZX"/>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.98823529409999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6SQ-cq-gdF" firstAttribute="top" secondItem="huo-zI-AZX" secondAttribute="top" id="3hi-HG-OpH"/>
+                            <constraint firstItem="6SQ-cq-gdF" firstAttribute="leading" secondItem="huo-zI-AZX" secondAttribute="leading" id="49l-Gz-68K"/>
+                            <constraint firstItem="s0v-N1-JIv" firstAttribute="width" secondItem="U6a-pC-l8Z" secondAttribute="width" id="7fP-V4-yrE"/>
+                            <constraint firstAttribute="bottom" secondItem="6SQ-cq-gdF" secondAttribute="bottom" id="9fO-hb-UP4"/>
+                            <constraint firstItem="6SQ-cq-gdF" firstAttribute="trailing" secondItem="huo-zI-AZX" secondAttribute="trailing" id="zsB-Ct-Q4Y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Basic Tips" id="1hT-yf-Q6H"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D91-GA-d81" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2056.521739130435" y="1482.5892857142856"/>
         </scene>
     </scenes>
     <resources>
